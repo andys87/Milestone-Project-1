@@ -107,9 +107,9 @@ The website needs to enable the **company** to:
 
 Using the above goal setting, a strategy table was created to determine the importance and viability trade-off with the following results:
 
-![Strategy Table](assets/readme-files/Strategy Table.png)
+![Strategy Table](assets/readme-files/Strategy-Table.png)
 
-![Strategy Trade-off](assets/readme-files/Strategy Trade-off.png)
+![Strategy Trade-off](assets/readme-files/Strategy-Trade-off.png)
 
 
 ## Features
