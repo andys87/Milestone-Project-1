@@ -1,45 +1,62 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# AK FITNESS
 
-Welcome USER_NAME,
+.....................................................PLACE LIVE SITE MOCKUP IMAGES HERE (EMBED AS PNG)...................................................
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Table of contents
+1. [Introduction](#Introduction)
+2. [UX](#UX)
+    1. [User Demographic](#User-Demographic)
+    2. [User Stories](#User-Stories)
+    3. [Development Planes](#Development-Planes)
+    4. [Design](#Design)
+3. [Features](#Features)
+    1. [Design Features](#Design-Features) 
+    2. [Existing Features](#Existing-Features)
+    3. [Features to Implement in the future](#Features-to-Implement-in-the-future)
+4. [Issues and Debugging](#Issues-and-Debugging)
+5. [Technologies Used](#Technologies-Used)
+     1. [Main Languages Used](#Main-Languages-Used)
+     2. [Additional Languages Used](#Additional-Languages-Used)
+     3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+6. [Testing](#Testing)
+     1. [Testing.md](TESTING.md)
+7. [Deployment](#Deployment)
+     1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
+     2. [Forking the Repository](#Forking-the-Repository)
+     3. [Creating a Clone](#Creating-a-Clone)
+8. [Credits](#Credits)
+     1. [Content](#Content)
+     2. [Media](#Media)
+     3. [Code](#Code)
+9. [Acknowledgements](#Acknowledgements)
+***
 
-## Gitpod Reminders
+## Introduction
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This website was designed for AK FITNESS, a local fitness company based in south Wales. The focus of the site is to create an online presence for the company, allowing existing and new clientele to gather relevant information regarding the company and the services they offer.
 
-`python3 -m http.server`
+AK FITNESS is a small fitness company with a core focus on fitness in the community, encouraging physical and mental well-being. They have operated for several years and have expanded the area in which classes and services are delivered, whilst continuing to develop the range of services they provide. The purpose of the site was to allow potential and existing clientele to identify locations where services are delivered, the type of services offered, and provide a method of opening direct communication with the company for enquiries.
 
-A blue button should appear to click: *Make Public*,
+As the first of four Milestone Projects that must be completed in order to complete the Diploma in Web Application Development, the main requirements were to ensure that the website developed incorporated **HTML5** and **CSS3** to create a responsive and static website across a minimum of three pages.
 
-Another blue button should appear to click: *Open Browser*.
+## UX
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A blue button should appear to click: *Make Public*,
+## Issues and Debugging
 
-Another blue button should appear to click: *Open Browser*.
+## Technologies Used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Testing
 
-## Updates Since The Instructional Video
+Testing information can be found in the separate testing [file] (Testing.md "Link to testing file")
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Deployment
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Credits
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Acknowledgements
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+...............................REMEMBER TO PUT BACK TO TOP LINK AT THE BOTTOM OF EACH PAGE.................................
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+[Back to top ⇧](#AK-Fitness)
