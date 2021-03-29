@@ -111,6 +111,25 @@ Using the above goal setting, a strategy table was created to determine the impo
 
 ![Strategy Trade-off](assets/readme-files/Strategy-Trade-off.png)
 
+#### Scope
+A scope was defined in order to clearly identify what needed to be done in order to align features with the strategy previously defined. This was broken into two categories:
+- **Content Requirements**
+     - The user will be looking for:
+          - Services information
+          - Instructor information
+          - Upcoming offers or events
+          - Contact details
+          - Social Links
+          - 
+- **Functionality Requirements**
+     - The user will be able to:
+          - Navigate the site in an intuitative manner in order to find the desired information
+          - Using their desired method, easily contact the company for enquiries
+#### Structure
+The site architecture was structured in a **hierarchial tree structure** to ensure intuitive and efficiencient site navigation, with the following results: 
+
+![Site Map](assets/readme-files/Structure-Plane-Flow-Chart.png)
+
 
 ## Features
 
