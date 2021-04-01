@@ -130,6 +130,21 @@ The site architecture was structured in a **hierarchial tree structure** to ensu
 
 ![Site Map](assets/readme-files/Structure-Plane-Flow-Chart.png)
 
+#### Skeleton 
+[Figma Workspace](https://www.figma.com/file/j7ljqwRtZCtjavnE8sQTIP/AK-FITNESS?node-id=6%3A19) was used to create wireframe mockups for each page. This was done to ensure completer planning for a responsive design and ensure positive user experience:
+
+Home Page:
+![Home Page Wireframe](assets/readme-files/Home-Wireframe.PNG "Home Page Wireframe")
+
+The Team Page:
+![The Team Page Wireframe](assets/readme-files/The-Team-Wireframe.PNG "The Team Page Wireframe")
+
+Services Page:
+![Services Page Wireframe](assets/readme-files/Services-Wireframe.PNG "Services Page Wireframe")
+
+Testimonials Page:
+![Testimonials Kit Page Wireframe](assets/readme-files/Testimonials-Wireframe.PNG "Testimonials Page Wireframe")
+
 
 ## Features
 
