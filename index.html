@@ -14,60 +14,156 @@
 <body>
 
         <!-- ================================= HEADER ================================= -->
-
+<header>
         <!-- ========= Header Logo ========= -->
-        <div class="navbar-logo">
-            <a  href="index.html" aria-label="AK Fitness logo linking to Homepage">
-                <img src="assets/images/AKFitness.jpg" width="150" height="25" alt="Click to return home" >
-            </a>
-        </div>
+<div class="navbar-logo">
+    <a  href="index.html" aria-label="AK Fitness logo linking to Homepage">
+        <img src="assets/images/AKFitness.jpg" width="150" height="25" alt="Click to return home" >
+    </a>
+</div>
 
         <!-- Navigation Bar - Sourced from bootstrap.com -->
-        <nav class="navbar navbar-expand-lg scroll-nav" id="epk-nav" aria-label="Navigation Bar">
-            <div class="container-fluid">
+<nav class="navbar navbar-expand-lg scroll-nav" id="epk-nav" aria-label="Navigation Bar">
+    <div class="container-fluid">
 
                 <!-- ========= Toggler Button ========= -->
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
 
                 <!-- ========= Nav Links ========= -->
-                <div class="collapse navbar-collapse nav-padding" id="navbarMenu">
-                    <ul class="nav navbar-nav scroll-nav ml-auto"> 
+        <div class="collapse navbar-collapse nav-padding" id="navbarMenu">
+            <ul class="nav navbar-nav scroll-nav ml-auto"> 
                         <!-- link-3 class sourced from codepen.io (https://codepen.io/Calloumi/pen/vndlH)-->
-                        <li class="nav-item link-3"><a class="nav-link" href="index.html" aria-label="Homepage">Home</a></li>
-                        <li class="nav-item link-3"><a class="nav-link" href="the-team.html" aria-label="The Team">The Team</a></li>
-                        <li class="nav-item link-3"><a class="nav-link" href="services.html" aria-label="Services">Services</a></li>
-                        <li class="nav-item link-3"><a class="nav-link" href="testimonials.html" aria-label="Testimonials">Testimonials</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                <li class="nav-item link-3"><a class="nav-link" href="index.html" aria-label="Homepage">Home</a></li>
+                <li class="nav-item link-3"><a class="nav-link" href="the-team.html" aria-label="The Team">The Team</a></li>
+                <li class="nav-item link-3"><a class="nav-link" href="services.html" aria-label="Services">Services</a></li>
+                <li class="nav-item link-3"><a class="nav-link" href="testimonials.html" aria-label="Testimonials">Testimonials</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
     
         <!-- =================================  MAIN SECTION ================================= -->
 
-
-
-
+<section id="homepage-hero-section" aria-label="Homepage hero image">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" id="hero-image-home">
+            <!-- Empty div to call in image in css -->
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="page-title-div">
+        <h1 id="about-us">ABOUT US</h1>
+    </div>
+</section>
+<section id="slideshow-section">
+    <div class="container-fluid">
+        <div class="row">
+             <div id="slideshow" class="col-12 col-lg-6"> 
+                        <div id="slideshow-images" class="carousel slide" data-ride="carousel">
+                        
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#slideshow-images" data-slide-to="0" class="active"></li>
+                                <li data-target="#slideshow-images" data-slide-to="1"></li>
+                                <li data-target="#slideshow-images" data-slide-to="2"></li>
+                                <li data-target="#slideshow-images" data-slide-to="3"></li>
+                                <li data-target="#slideshow-images" data-slide-to="4"></li>
+                                <li data-target="#slideshow-images" data-slide-to="5"></li>
+                                <li data-target="#slideshow-images" data-slide-to="6"></li>
+                            </ul>
+                                
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active c-image1">
+                                    <!-- Image 1 called in CSS -->
+                                    <span class="c-image1" role="img" aria-label="Sprinting"></span>
+                                </div>
+                                <div class="carousel-item w-100 c-image2">
+                                    <!-- Image 2 called in CSS -->
+                                    <span class="c-image2" role="img" aria-label="Kryan at Whelans"></span>
+                                </div>
+                                <div class="carousel-item w-100 c-image3">
+                                    <!-- Image 3 called in CSS-->
+                                    <span class="c-image3" role="img" aria-label="Kryan"></span>
+                                </div>
+                                <div class="carousel-item w-100 c-image4">
+                                    <!-- Image 4 called in CSS-->
+                                    <span class="c-image4" role="img" aria-label="Kryan"></span>
+                                </div>
+                                <div class="carousel-item w-100 c-image5">
+                                    <!-- Image 5 called in CSS-->
+                                    <span class="c-image5" role="img" aria-label="Kryan"></span>
+                                </div>
+                                <div class="carousel-item w-100 c-image6">
+                                    <!-- Image 6 called in CSS-->
+                                    <span class="c-image6" role="img" aria-label="Kryan"></span>
+                                </div>
+                                <div class="carousel-item w-100 c-image7">
+                                    <!-- Image 7 called in CSS-->
+                                    <span class="c-image7" role="img" aria-label="Kryan"></span>
+                                </div>
+                            </div>
+                            
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#epk-images" data-slide="prev" aria-label="Left carousel control">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#epk-images" data-slide="next" aria-label="Right carousel control">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                <div class="col-12 col-lg-6" id="about-us-text">
+                    <p>
+                        At AK Fitness we are passionate about all things health, fitness, and fun! We try to have something for everyone, experienced or new, young or old we're sure to try and include information and motivation to help you become the healthy, well-rounded family or individual you want to be. We offer a range of services to allow you to achieve your goals, so no matter where you start your journey, we’ve got you covered! If your looking to change your life for the better, get in touch, book a session, or pop along to one of our monthly FREE events and try something new.
+                    </p>
+                </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="get-in-touch">
+        <div>
+            <h3>HAVE AN ENQUIRY? GET IN TOUCH!</h3>
+                <form aria-label="Contact Form" onsubmit="alert('Thank You! We will be in touch with you as soon as possible!')">
+                    <input type="text" placeholder="Name" aria-label="Enter Name" required>
+                    <input type="email" placeholder="Email" aria-label="Enter Email" required>
+                    <textarea placeholder="Message...." aria-label="Enter Message" required></textarea>
+                    <br>
+                    <button type="submit" id="send-btn" class="btn" aria-label="Press Send">Send Message</button>
+                </form>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="location">
+        <h3>ALL OUR LOCATIONS ARE IN THE AMMAN VALLEY AREA.</h3>
+    </div>
+     <div class="col-12 col-md-6 col-lg-12"> 
+                                        <div id="live-location">
+                                            <iframe src="https://www.google.com/maps/search/amman+valley/@51.7968052,-3.9217381,13.75z" allowfullscreen="" aria-hidden="true" tabindex="0"></iframe>
+                                        </div>
+</section>
 
              <!-- ================================= FOOTER ================================= -->
-        <footer class="container-fluid fixed-bottom" aria-label="Footer containing Social Icons">
-             <div class="row">
-                <div class="col left-footer d-none d-lg-block d-xl-block">
-                    <!-- Empty div in order to divide the footer -->
-                </div>
-            <div class="col socials-large d-md-block d-lg-block d-xl-block">
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="mailto:contact@allroundak.com" target="_blank" rel="noopener" aria-label="AK Fitness Facebook"><i class="fas fa-envelope"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.facebook.com/akfitness3" target="_blank" rel="noopener" aria-label="AK Fitness Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.instagram.com/ak_fitness3/" target="_blank" rel="noopener" aria-label="AK Fitness Instagram"><i class="fab fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="https://twitter.com/allround_ak?lang=en" target="_blank" rel="noopener" aria-label="AK Fitness Twitter"><i class="fab fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCBN4JZZN3oQ0hhaYpFIKS3A" target="_blank" rel="noopener" aria-label="AK Fitness YouTube"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
-                </div>  
-            </div>
-        </footer>
-
-
+<footer class="container-fluid fixed-bottom" aria-label="Footer containing Social Icons">
+    <div class="row">
+        <div class="col socials-large d-md-block d-lg-block d-xl-block">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="mailto:contact@allroundak.com" target="_blank" rel="noopener" aria-label="AK Fitness Facebook"><i class="fas fa-envelope"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/akfitness3" target="_blank" rel="noopener" aria-label="AK Fitness Facebook"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/ak_fitness3/" target="_blank" rel="noopener" aria-label="AK Fitness Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/allround_ak?lang=en" target="_blank" rel="noopener" aria-label="AK Fitness Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCBN4JZZN3oQ0hhaYpFIKS3A" target="_blank" rel="noopener" aria-label="AK Fitness YouTube"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>  
+    </div>
+</footer>
 </body>
 </html>
