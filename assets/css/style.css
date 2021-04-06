@@ -35,21 +35,28 @@
     z-index: 1;
 }
 
+.navbar-logo a img {
+   text-align: left;
+   max-width: 250px;
+   max-height: 100px;
+}
+
 /* Styling for nav links in navigation bar */
 .nav-link {
     color: #3a3a3a;
     text-transform: uppercase;
-    font-size: 120%;
+    font-size: 2em;
     font-weight: 400;
     font-family: "Exo", sans-serif;
     z-index: 1;
+    padding-left: 2em;
 }
 
 .nav-link:hover {
     color: #ffffff;
     background-color: #3a3a3a;
-    padding: 5px 10px;
-    font-size: 125%;
+    padding-left: 2.5em;
+    font-size: 2.25em;
     z-index: 1;
 }
 
@@ -74,7 +81,7 @@
 /*------------------------------------------------------- Home Page */
 
 #homepage-hero-section{
-    padding: 50px 0 20px 0;
+    padding: 60px 0 20px 0;
     background-color: #fafafa;
 }
 
@@ -84,7 +91,6 @@
     opacity: 0.75;
     width: 200vw;
     height: 30vh;
-   
 }
 
 #page-title-div {
@@ -103,37 +109,68 @@
 
 #slideshow-section {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+
 /* Styling for slideshow images section */
-#c-style {
-    margin: auto;
-    float: left;
-}
+
+
+
 /* Calling in each image to slideshow to ensure responsiveness */
 .c-image1 {
     background: url(../images/c-image1.jpg) no-repeat center top;   
-    width: 100vw;
     min-height: 40vh;
 }
 
-#about-us-text {
+.c-image2 {
+    background: url(../images/c-image2.jpg) no-repeat center top;   
+    min-height: 40vh;
+}
+
+.c-image3 {
+    background: url(../images/c-image3.jpg) no-repeat center top;   
+    min-height: 40vh;
+}
+
+.c-image4 {
+    background: url(../images/c-image4.jpg) no-repeat center top;   
+    min-height: 40vh;
+}
+
+.c-image5 {
+    background: url(../images/c-image5.jpg) no-repeat center top;   
+    min-height: 40vh;
+}
+
+.c-image6 {
+    background: url(../images/c-image6.jpg) no-repeat center top; 
+    min-height: 40vh;
+}
+
+.c-image7 {
+    background: url(../images/c-image7.jpg) no-repeat center top;   
+    min-height: 40vh;
+}
+
+#about-us-text p {
     font-family: "Exo", sans-serif;
-    font-size: 1.2em;
+    font-size: 2em;
     color: #3a3a3a;
-    padding-right: 200px;
-    padding-left: 50px;
+    padding-right: 20%;
+
 }
 
 /* Contact form styling */
 #get-in-touch {
-    padding: 10px 20px 100px 20px;
+    padding: 50px 20px 100px 20px;
     background-color: #fafafa;
 }
 #get-in-touch div{
     text-align: center;
 }
-#eget-in-touch h3 {
+
+#get-in-touch h3 {
     padding-bottom: 10px;
     text-transform: uppercase;
     font-family: "Exo", sans-serif;
@@ -156,26 +193,119 @@
 
 /* Copied and edited from W3Schools example to style contact form */
 input[type=text], input[type=email], textarea {
-    width: 50%;
+    width: 25%;
     padding: 7px;
+    display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    margin: auto;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: none;
 }
 
 #location {
-    align-items: center;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 25vw;
+    padding: 50px 0;
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+    font-size: 1.75em;
+}
+
+#live-location-div {
+    margin: auto;
+}
+
+#live-location {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 75px;
+    display: flex;
+}
+
+#live-location iframe {
+    margin: auto;
+}
+
+/*------------------------------------------------------- The Team Page */
+#teampage-hero-section{
+    padding: 60px 0 20px 0;
+    background-color: #fafafa;
+}
+
+#hero-image-team {
+    background: url(../images/The-Team.jpg) no-repeat center center;
+    background-size: cover;
+    opacity: 0.75;
+    width: 100vw;
+    height: 30vh;
+}
+
+#the-team {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    color: #fafafa;
+    background-color: #3a3a3a;
+    width: 250px;
+}
+
+.coach-image {
+    float: right;
+    padding: 50px 50px 50px 200px;
+    max-width: 40vw;
+}
+
+.coach-image-left {
+    float: left;
+    padding: 50px 200px 50px 50px;
+    max-width: 35vw;
+}
+
+.coach-name {
+    padding: 50px 0 10px 5%;
+}
+
+.coach-name-left {
+    padding: 50px 5% 10px 0;
+    float: right;
+}
+
+.coach-bio {
+    font-size: 1.25em;
+    font-family: "Exo", sans-serif;
+    padding-left: 5%;
+    padding-right: 30%;
+}
+
+.coach-bio-left {
+    font-size: 1.25em;
+    font-family: "Exo", sans-serif;
+    padding-left: 30%;
+    padding-right: 5%;
+    float: right;
+    text-align: right;
+}
+
+.fafa {
+    background-color: #fafafa;
+}
+
+#final-row {
+    padding-bottom: 100px;
 }
 
 /*------------------------------------------------------- Footer */
 
 .socials-large li a i {
-        font-size: 1.75em;
+        font-size: 2.5em;
         color: #fafafa;
         margin: 5px 5px;
+        padding: 0 15px;
     }
 
 .socials-large li a i:hover {
@@ -199,35 +329,138 @@ input[type=text], input[type=email], textarea {
 
 /*------------------------------------------------------- Media Queries */
 
-/* Breakpoint to maintain structural integrity on a Tablet device */
+/* Breakpoint to maintain structural integrity on a Tablet or mobile device */
+
+ /*--------------------------------- Homepage Styling */
 @media (max-width: 991px) {
 
+.navbar-logo a img {
+   text-align: left;
+   max-width: 125px;
+   max-height: 50px;
+}
 
-/*--------------------------------- Footer Styling */
+#homepage-hero-section{
+    padding: 50px 0 0 0;
+    background-color: #fafafa;
+}
 
-.socials-large li a i {
-        font-size: 1.25em;
+#about-us {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    color: #fafafa;
+    background-color: #3a3a3a;
+    width: 130px;
+    font-size: x-large;
+}
+
+#page-title-div {
+    padding: 10px 0 10px 0;
+}
+
+#slideshow-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#about-us-text p {
+    font-family: "Exo", sans-serif;
+    font-size: 1em;
+    color: #3a3a3a;
+    padding: 10px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 80%;
+    padding: 7px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+}
+
+#location {
+    font-size: 1em;
+    width: 50vw;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.socials-large li a i{
+        font-size: 1.5em;
         color: #fafafa;
         margin: 5px 5px;
+        float: left;
         text-align: center;
+        padding: 0 5px;
     }
 
-.socials-large li {
-        font-size: 1.25em;
-        color: #fafafa;
-        margin: 5px 5px;
-        text-align: center;
+    .list-inline {
+        margin: 1px 20px;
     }
 
-.socials-large {
-        text-align: center;
-        margin: auto;
-        width: 50vw;
-    }
+/*--------------------------------- Team page Styling */
 
+.reverse-divs {
+    flex-direction: column-reverse;
+}
 
+.coach-image {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 90vw;
+}
+
+.coach-image-left {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 90vw;
+}
+
+.coach-name {
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.coach-name-left {
+    text-align: center;
+    padding-top: 20px;
+    float: none;
+}
+
+.coach-bio {
+    font-size: 1em;
+    font-family: "Exo", sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.coach-bio-left {
+    font-size: 1em;
+    font-family: "Exo", sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
 
 }
+
 
 /* Breakpoint to maintain structural integrity on a Laptop Screen */
 @media (min-width: 991px){ 
