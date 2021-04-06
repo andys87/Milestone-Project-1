@@ -299,6 +299,66 @@ input[type=text], input[type=email], textarea {
     padding-bottom: 100px;
 }
 
+/*------------------------------------------------------- Services Page */
+
+#services-page-hero-section{
+    padding: 60px 0 20px 0;
+    background-color: #fafafa;
+}
+
+#hero-image-services {
+    background: url(../images/c-image6.jpg) no-repeat center center;
+    background-size: cover;
+    opacity: 0.75;
+    width: 200vw;
+    height: 30vh;
+}
+.services-row {
+    padding-bottom: 50px;
+}
+
+.final-services-row {
+    padding-bottom: 100px;
+}
+
+.services-image {
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    max-width: 60%;
+    min-width: 50%;
+}
+
+.services-timetable {
+    float: right;
+    padding-right: 50px;
+    margin-left: 300px;
+}
+
+.services-name {
+    padding: 50px 0 10px 5%;
+}
+
+.services-bio {
+    font-size: 1.25em;
+    font-family: "Exo", sans-serif;
+    padding-left: 5%;
+    padding-right: 30%;
+}
+
+.th-location {
+padding-right: 60%;
+}
+
+.th-day {
+padding-right: 10%;
+}
+
+.th-time {
+padding-right: 10%;
+}
+
 /*------------------------------------------------------- Footer */
 
 .socials-large li a i {
